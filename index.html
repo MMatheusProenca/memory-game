@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./scr/styles/global.css">
+   <link rel="stylesheet" href="./scr/styles/reset.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./scr/images/android-chrome-192x192.png" type="image/x-icon">
+   <title>Memory game</title>
+</head>
+<body>
+   <div class="displayNone victory">
+      <h1>Congrats, you win!</h1>
+      <button onclick="window.location.reload()">Reset</button>
+   </div>
+   <main>
+      <h1>The incredible memory game!</h1>
+      <div id="container-game">
+      </div>
+      <button onclick="window.location.reload()">Reset</button>
+   </main>
+   <script src="./scr/scripts/engine.js"></script>
+</body>
+</html>
