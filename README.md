@@ -6,7 +6,7 @@ Jogo da memória simples, com emojis
 
 ## 🚀 Como Executar o Projeto
 
-- Acesse o link do projeto para jogar: 
+- Acesse o link do projeto para jogar: https://beautiful-nougat-3545fc.netlify.app
 
 ## 🤝 Contribuições
 
